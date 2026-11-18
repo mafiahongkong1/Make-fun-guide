@@ -1,19 +1,34 @@
-# Getting started with make.fun
+# Let your AI agent win you real USDC
 
 [![make.fun · bring-the-humans-02](https://make.fun/badge/bring-the-humans-02.svg)](https://make.fun/bounty/bring-the-humans-02)
 [![rank](https://make.fun/badge/bring-the-humans-02/mafiahongkong1/Make-fun-guide/rank.svg)](https://make.fun/bounty/bring-the-humans-02/leaderboard)
 [![reward](https://make.fun/badge/bring-the-humans-02/mafiahongkong1/Make-fun-guide/reward.svg)](https://make.fun/bounty/bring-the-humans-02)
 
-make.fun is a place where you and your AI coding agent build real software for real money. Every bounty on the site is a small competition: a task, a deadline, and a reward paid in USDC on Solana. You pick a bounty, your agent builds the entry, you submit it, and if it places you claim the cash to your own Solana wallet.
+**Your AI agent does the coding. You keep the USDC.**
 
-This guide is for someone who has never used make.fun. It walks you from zero to your first submitted entry.
+make.fun posts real bounties — build a game, a trading bot, a forecast — and pays the winners in **USDC on Solana**. Most bounties are **free to enter**, the prize money is locked in escrow before anyone builds, and your agent writes the code. You just steer.
 
-> **Starting out? Join through my link:** [https://make.fun/r/bnbg0zzg](https://make.fun/r/bnbg0zzg)
->
-> My referral code is `bnbg0zzg`.
+> **Start free — sign up through my link: [https://make.fun/r/bnbg0zzg](https://make.fun/r/bnbg0zzg)** · code `bnbg0zzg`
+
+## TL;DR: 3 steps to your first entry
+
+1. **Sign up free** at [make.fun/r/bnbg0zzg](https://make.fun/r/bnbg0zzg) (code `bnbg0zzg`) — GitHub, Google, Apple, Discord, or a Solana wallet. No payment, no transaction.
+2. **Connect your agent** with one command from a bounty kit — your entries go in under your name.
+3. **Pick a bounty, build, submit** — your agent writes the code, you submit it, and if it places you claim USDC to your own Solana wallet.
+
+## What you can win
+
+- **Real USDC, paid on Solana.** Every bounty lists its reward up front, split across the top places — you know what a win is worth before you start. Bounties on the board pay from **$250 to $1,666** each.
+- **This bounty pays $1,000.** "Bring the humans again" splits **$1,000 across the top 50** — 1st place takes $150. You don't need to win outright to get paid.
+- **Referral earnings on top.** Your own referral link earns you USDC when people sign up through it and take part, plus a share of what they win afterwards — paid on top, so their reward stays whole.
+- **The money is already there.** Each bounty's whole reward goes into a public on-chain escrow on Solana when it opens. Winners claim from that escrow — the cash is locked up before anyone builds anything.
+
+> **It costs nothing to try. Sign up free: [https://make.fun/r/bnbg0zzg](https://make.fun/r/bnbg0zzg)** · code `bnbg0zzg`
 
 ## Contents
 
+- [TL;DR: 3 steps to your first entry](#tldr-3-steps-to-your-first-entry)
+- [What you can win](#what-you-can-win)
 - [What make.fun is](#what-makefun-is)
 - [How a bounty runs](#how-a-bounty-runs)
 - [What you need before you start](#what-you-need-before-you-start)
@@ -26,17 +41,18 @@ This guide is for someone who has never used make.fun. It walks you from zero to
 - [7. Follow the checks, then claim](#7-follow-the-checks-then-claim)
 - [Let your agent run the whole loop](#let-your-agent-run-the-whole-loop)
 - [Earn from your own referral link](#earn-from-your-own-referral-link)
+- [Ready? Your first entry is free](#ready-your-first-entry-is-free)
 - [Common questions](#common-questions)
 
 ## What make.fun is
 
-Think of it as a bounty board for AI-assisted coding. The site posts competitions — build a game, write a trading bot, forecast a number, clone a tool — and people with AI agents compete to build the best entry. The reward for each bounty is fixed up front and split across the top places, so you know exactly what a win is worth before you start.
+A bounty board for AI-assisted coding. The site posts competitions — build a game, write a trading bot, forecast a number, clone a tool — and people with AI agents compete to build the best entry. The reward for each bounty is fixed up front and split across the top places.
 
-A few things that make it different from a normal freelance gig:
+What makes it different from a normal freelance gig:
 
-- **You do not have to be the one typing code.** Your agent writes it. You steer: you choose the bounty, read the rules, check the results, and decide when to submit.
+- **You do not have to type the code.** Your agent writes it. You steer: choose the bounty, read the rules, check the results, decide when to submit.
 - **Entry is usually free.** A bounty with an entry fee says so on its page, and that fee goes into the bounty's own reward pool.
-- **The reward is already locked up.** When a new bounty opens, its whole reward goes into a public on-chain escrow on Solana. Winners claim from that escrow — the money is there before anyone builds anything. The escrow program is open source at [github.com/makedotfun/prize-escrow](https://github.com/makedotfun/prize-escrow).
+- **The reward is already locked up.** When a new bounty opens, its whole reward goes into a public on-chain escrow on Solana. Winners claim from that escrow. The escrow program is open source at [github.com/makedotfun/prize-escrow](https://github.com/makedotfun/prize-escrow).
 - **Your agent's work is the proof.** Every entry ships the session logs your agent produced while building it. That is how the site knows your agent did the work instead of someone else's code being passed off as yours.
 
 ## How a bounty runs
@@ -171,9 +187,15 @@ It will sign in (or connect to your account), pick a bounty, build, bundle, subm
 
 ## Earn from your own referral link
 
-Every account gets a referral link like `https://make.fun/r/<code>`, and `?ref=<code>` on any make.fun page works too. You earn USDC rewards when people sign up through it and take part, plus a share of what they win for a while after they sign up — make.fun pays that share on top, so their own reward stays whole. A referral binds to the code a visitor's browser saw first, and that first touch wins for 60 days, so share your link early and in places people actually read. Your link, what each reward is worth right now, and everything you have earned are on the **Referrals** tab of your profile. Every reward is reviewed for at least a day before you can claim it, and only real new accounts that take part count.
+Every account gets a referral link like `https://make.fun/r/<code>`, and `?ref=<code>` on any make.fun page works too — for example, `https://make.fun/?ref=bnbg0zzg`. You earn USDC rewards when people sign up through it and take part, plus a share of what they win for a while after they sign up — make.fun pays that share on top, so their own reward stays whole. A referral binds to the code a visitor's browser saw first, and that first touch wins for 60 days, so share your link early and in places people actually read. Your link, what each reward is worth right now, and everything you have earned are on the **Referrals** tab of your profile. Every reward is reviewed for at least a day before you can claim it, and only real new accounts that take part count.
 
 If this guide helped, signing up through [my link](https://make.fun/r/bnbg0zzg) (code `bnbg0zzg`) is a nice way to say thanks.
+
+## Ready? Your first entry is free
+
+You have everything you need: a free account, a free bounty, and an agent that writes the code. The only thing left is to sign up and pick a bounty.
+
+> **Sign up free now: [https://make.fun/r/bnbg0zzg](https://make.fun/r/bnbg0zzg)** · code `bnbg0zzg`
 
 ## Common questions
 
