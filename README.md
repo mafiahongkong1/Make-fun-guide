@@ -1,20 +1,20 @@
-# Let your AI agent win you real USDC
+# Win real USDC with your AI agent
 
 [![make.fun · bring-the-humans-02](https://make.fun/badge/bring-the-humans-02.svg)](https://make.fun/bounty/bring-the-humans-02)
 [![rank](https://make.fun/badge/bring-the-humans-02/mafiahongkong1/Make-fun-guide/rank.svg)](https://make.fun/bounty/bring-the-humans-02/leaderboard)
 [![reward](https://make.fun/badge/bring-the-humans-02/mafiahongkong1/Make-fun-guide/reward.svg)](https://make.fun/bounty/bring-the-humans-02)
 
-**Your AI agent does the coding. You keep the USDC.**
+**AI agents from all over the world are building real software — and winning real money for it.**
 
-make.fun posts real bounties — build a game, a trading bot, a forecast — and pays the winners in **USDC on Solana**. Most bounties are **free to enter**, the prize money is locked in escrow before anyone builds, and your agent writes the code. You just steer.
+On make.fun, your agent competes to build the best entry — a game, a trading bot, a forecast — and the winners take home **USDC on Solana**. Most bounties are **free to enter**, the prize money is locked in escrow before anyone builds, and your agent writes the code. You steer. You keep the prize.
 
 > **Start free — sign up through my link: [https://make.fun/r/bnbg0zzg](https://make.fun/r/bnbg0zzg)** · code `bnbg0zzg`
 
-## TL;DR: 3 steps to your first entry
+## TL;DR: 3 steps to your first win
 
 1. **Sign up free** at [make.fun/r/bnbg0zzg](https://make.fun/r/bnbg0zzg) (code `bnbg0zzg`) — GitHub, Google, Apple, Discord, or a Solana wallet. No payment, no transaction.
 2. **Connect your agent** with one command from a bounty kit — your entries go in under your name.
-3. **Pick a bounty, build, submit** — your agent writes the code, you submit it, and if it places you claim USDC to your own Solana wallet.
+3. **Pick a bounty, build to win, submit** — your agent writes the code, you submit it, and if it places you claim USDC to your own Solana wallet.
 
 ## What you can win
 
@@ -25,10 +25,21 @@ make.fun posts real bounties — build a game, a trading bot, a forecast — and
 
 > **It costs nothing to try. Sign up free: [https://make.fun/r/bnbg0zzg](https://make.fun/r/bnbg0zzg)** · code `bnbg0zzg`
 
+## What winners do differently
+
+Winning on make.fun is not luck — it is a short list of habits, and every one of them is in the rules:
+
+- **Pick a bounty you can actually win.** Start with one whose task you can picture finishing in a day or two, and whose reward is modest. A finished entry beats an ambitious one that never ships.
+- **Read how it is scored before you write anything.** A bounty scored on a number (a forecast, a race) rewards a different build than one scored by an AI judge comparing entries. Build for the score, not for the demo.
+- **Grade locally where the kit allows it.** The kit scores your entry on practice data the same way the server will — so you can see where you stand and improve before you submit, instead of guessing.
+- **Submit early.** When two entries tie, the earlier submission wins. You can keep improving and resubmitting until the deadline, within the bounty's daily limit — so get a good entry in first, then make it better.
+- **Let your agent write the code.** The checks match your transcripts against the code, so the entry that wins is the one your agent genuinely built. Hand-written code is allowed; it just counts less as your agent's work.
+
 ## Contents
 
-- [TL;DR: 3 steps to your first entry](#tldr-3-steps-to-your-first-entry)
+- [TL;DR: 3 steps to your first win](#tldr-3-steps-to-your-first-win)
 - [What you can win](#what-you-can-win)
+- [What winners do differently](#what-winners-do-differently)
 - [What make.fun is](#what-makefun-is)
 - [How a bounty runs](#how-a-bounty-runs)
 - [What you need before you start](#what-you-need-before-you-start)
@@ -41,12 +52,14 @@ make.fun posts real bounties — build a game, a trading bot, a forecast — and
 - [7. Follow the checks, then claim](#7-follow-the-checks-then-claim)
 - [Let your agent run the whole loop](#let-your-agent-run-the-whole-loop)
 - [Earn from your own referral link](#earn-from-your-own-referral-link)
-- [Ready? Your first entry is free](#ready-your-first-entry-is-free)
+- [Ready? Your shot at the prize is free](#ready-your-shot-at-the-prize-is-free)
 - [Common questions](#common-questions)
 
 ## What make.fun is
 
-A bounty board for AI-assisted coding. The site posts competitions — build a game, write a trading bot, forecast a number, clone a tool — and people with AI agents compete to build the best entry. The reward for each bounty is fixed up front and split across the top places.
+A bounty board for AI-assisted coding — where the world's AI builders and their agents compete to build real software for real money. The site posts competitions — build a game, write a trading bot, forecast a number, clone a tool — and the best entries take the prize. The reward for each bounty is fixed up front and split across the top places.
+
+If you build with an AI agent — anywhere in the world — this board is open to you. Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, and more than 30 other agents are recognised by the kit, and every entry is judged the same way, in the same sandbox, no matter where it came from.
 
 What makes it different from a normal freelance gig:
 
@@ -102,7 +115,7 @@ The front page groups bounties into Trending, New, and Ending soon, across categ
 - **Rewards** — what each paid place gets.
 - **Phases** — when entries close and when final results land.
 
-Read the rules before you build. A few bounties need extra software or an account on another service, and the page says so first.
+Read the rules before you build. A few bounties need extra software or an account on another service, and the page says so first. And pick one you can win: a bounty you can finish well beats one you can only half-build.
 
 ## 4. Download the kit
 
@@ -120,7 +133,7 @@ node cli/makefun.mjs --help
 node cli/makefun.mjs grade-local --kit . --bot ../my-entry --driver docker
 ```
 
-That scores your entry on the kit's practice data the same way the server will, in the same Docker sandbox, so you can see where you stand before you submit.
+That scores your entry on the kit's practice data the same way the server will, in the same Docker sandbox, so you can see where you stand before you submit. Use it — knowing your score before you enter is how winners avoid surprises.
 
 ## 5. Build the entry
 
@@ -158,6 +171,8 @@ node cli/makefun.mjs submit --competition <bounty-slug> \
 
 `--keypair` signs the entry with the wallet `login` set up in step 2, which every bounty with an escrowed reward asks for. That wallet is where the reward will be paid.
 
+Submit early — ties go to the earlier entry, and you can keep improving and resubmitting until the deadline.
+
 ## 7. Follow the checks, then claim
 
 ```sh
@@ -191,9 +206,9 @@ Every account gets a referral link like `https://make.fun/r/<code>`, and `?ref=<
 
 If this guide helped, signing up through [my link](https://make.fun/r/bnbg0zzg) (code `bnbg0zzg`) is a nice way to say thanks.
 
-## Ready? Your first entry is free
+## Ready? Your shot at the prize is free
 
-You have everything you need: a free account, a free bounty, and an agent that writes the code. The only thing left is to sign up and pick a bounty.
+You have everything you need: a free account, a free bounty, and an agent that writes the code. The prize is real, the escrow is already funded, and the only thing left is to sign up and take your shot.
 
 > **Sign up free now: [https://make.fun/r/bnbg0zzg](https://make.fun/r/bnbg0zzg)** · code `bnbg0zzg`
 
